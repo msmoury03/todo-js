@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Josefin+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.main{
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 12%;
+    height: 500px;
+    
+    /* background-color: white; */
+}
+
+.head{
+    display: flex;
+    font-size: 30px; 
+    color: white;
+}
+
+.task{
+    font-family: 'Roboto', sans-serif;
+}
+
+.head1{
+    margin-left: 30px;
+    font-size: 45px; 
+
+}
+
+.head1 p{
+  
+    margin-top: 20px;
+    font-family: 'Barlow', sans-serif;
+}
+
+.head2 {
+    margin-left: 55%;
+    margin-top: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: none;
+    font-family: 'Josefin Sans', sans-serif;
+    
+  
+}
+
+.fa-plus-circle{
+    color: rgb(37, 37, 177);
+    
+}
+
+.some{
+    height: 200px;
+    width: 400px;
+    border-radius: 5px;
+    background-color: white;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    z-index: 1;
+    display: none;
+}
+
+.carditt{
+    padding-top: 30px;
+    text-align: center;
+    margin: 10px 0 10px 0;
+    
+}
+
+.newttt{
+    text-align: center;
+    color: red;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.btn{
+    height: 35px;
+    margin: 10px 10px 0 0;
+    width: 70px;
+    padding: 10px;
+    background-color: rgb(221, 89, 12);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+}
+
+#name{
+    margin: 20px 0 10px 0;
+    height: 35px;
+    width: 250px;
+    border-radius: 8px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+
+
+
+
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.child{
+    padding-top: 5px;
+    color: rgb(175, 57, 57);
+    text-align: center;
+    border: 2px solid rgb(221, 89, 12);
+    border-radius: 8px;
+    min-width: 180px;
+    max-width: 210px;
+    min-height: 250px;
+    align-items: center;
+    max-height: auto;
+    overflow-wrap: break-word;
+    
+    box-shadow: 0 .8rem 1rem rgba(0,0,0,.30);
+    position: relative;
+    margin: 35px;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: white;
+    font-size: 22px;
+    
+
+}
+
+
+
+
+
+
+.addbt{
+    color: white;
+    background-color: rgb(60, 60, 199);
+    font-size: 15px;
+    font-weight: bolder;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+
+}
+
+.delet{
+    color: white;
+    background-color: rgb(192, 38, 38);
+    font-size: 15px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+
+}
+
+
+
+.opration{
+    
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    
+}
+
+.hrtag{
+    margin-top: 8px;
+   
+}
+
+
+
+.addtsklit{
+    background-color: rgb(51, 185, 163);
+    height: 50px;
+    width: 300px;
+    border-radius: 5px;
+    padding-top: 50px;
+    padding-left: 10px;
+    position: absolute;
+    top: 200px;
+    left: 40%;
+    display: none;
+    
+}
+
+.btnsub{
+    background-color: burlywood;
+    height: 20px;
+    width: 50px;
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+.mypppp{
+    font-size: 16px;
+    padding: 5px;
+    color: black;
+}
+
+
+.btnclre{
+    background-color: rgb(60, 60, 199);
+    color: white;
+    border: none;
+    height: auto;
+    width: auto;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 4px;
+    font-size: 10px;
+    padding: 4px;
+}
+
+.mydiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 100px; */
+    
+    
+
+    
+}
+
+.mypppp{
+    font-family:  sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    word-break: break-all;
+    
+}
+
+
+.mylisdiv{
+    height: 200px;
+    width: 400px;
+    border-radius: 5px;
+    background-color: white;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: 1;
+    justify-content: center;
+    display: none;
+    
+}
+
+.newbtn{
+    height: 35px;
+    margin: 10px 10px 0 0;
+    width: 70px;
+    padding: 10px;
+    background-color: rgb(221, 89, 12);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+}
+
+#inpuss{
+    margin: 20px 0 10px 0;
+    height: 35px;
+    width: 250px;
+    border-radius: 8px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+
+.addtolist{
+    height: 300px;
+    width: 50%;
+    background-color: blue;
+}
+
+
+.nohead{
+    padding: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+
+
+
+
+
+.tripto{
+    padding-left: 250px;
+}
+
+.head111{
+    display: flex;
+}
+
+.taskco{
+    cursor: pointer;
+}
+
+.heady1{
+    display: none;
+}
+
+.taskco a{
+    text-decoration: none;
+    color: white;
+}
